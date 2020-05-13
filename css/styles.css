@@ -1,6 +1,14 @@
-@import "reset.css";
 
-h1 {
-    color: blue;
-    font-size: 42px;
+* {
+    box-sizing: border-box;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td, th {
+    border: 2px solid black;
+    padding: 20px;
+}
+
