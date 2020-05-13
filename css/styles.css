@@ -3,12 +3,29 @@
     box-sizing: border-box;
 }
 
-table {
-    border-collapse: collapse;
+ul, ol {
+    list-style: none;
 }
 
-td, th {
+ul {
+    list-style-image: url('../icons/phone-small.png');
+    list-style-position: inside;
+    /*list-style-type: square;*/
+
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: 50px auto;
+
+}
+
+td, th, caption {
     border: 2px solid black;
     padding: 20px;
 }
 
+caption {
+    border-bottom: none;
+}
